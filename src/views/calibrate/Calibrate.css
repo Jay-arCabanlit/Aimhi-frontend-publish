@@ -1,0 +1,21 @@
+table {
+    font-family: 'Roboto';
+}
+.input_outline {
+border:0;
+outline:0
+}
+.input_outline:focus {
+    outline:none!important;
+}
+.input_outline:disabled {
+    background: white;
+}
+
+.input_edit {
+    background: #F4F4F7;
+    border: #DEDEE1 solid 1px;
+    /* opacity: 0.4; */
+    border-radius: 5px;
+}
+

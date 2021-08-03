@@ -1,0 +1,148 @@
+.carousel_container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(148, 148, 148);
+    width: 100%;
+}
+
+.img_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.img_container > img {
+    width: 160px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.progress_container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+     justify-content:space-between;
+
+    
+}
+.carousel {
+    padding: 10;
+}
+
+.progress {
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+font-size: 12px;
+font-weight: 700;
+flex-direction: end;
+}
+
+.badge_green {
+ background: #54c2a2;
+ margin: 10px;
+ text-align: center;
+ border-radius: 10px;
+ color: white;
+ font-size: 12px;
+ font-weight: 600;
+ padding: 5px;
+}
+
+.badge_blue {
+ background: #4ccee8;
+ margin: 10px;
+ text-align: center;
+ border-radius: 10px;
+ color: white;
+ font-size: 12px;
+ font-weight: 600;
+ padding: 5px;
+}
+.badge_violet {
+ background: #331a73;
+ margin: 10px;
+ text-align: center;
+ border-radius: 10px;
+ color: white;
+ font-size: 12px;
+ font-weight: 600;
+ padding: 5px;
+}
+.badge_orange {
+ background: #f7c56d;
+ width: 200px;
+ margin: 10px;
+ text-align: center;
+ border-radius: 10px;
+ color: white;
+ font-size: 12px;
+ font-weight: 600;
+ padding: 5px;
+}
+
+
+/* .card_container {
+    width: 500px;
+} */
+
+.card_container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 98%;
+  height: 98%;
+  border-radius: 20px;
+}
+
+
+.container_box {
+  padding: 2px 16px;
+  text-align: center;
+  display: flex;
+  height: 100%;
+}
+.title {
+    /* white-space: nowrap; */
+    font-size: 14px;
+    color:#23303DC2;
+}
+
+.list_container {
+    height: 400px;
+     overflow-y: scroll;
+}
+.list_footer {
+    height: 215px;
+     overflow-y: scroll;
+}
+
+.list_card {
+    padding: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     /* border-radius: 20px; */
+}
+
+/* refine css */
+
+.project_val {
+font-size: 40px;
+font-weight: 600;
+}
+
+.project_label {
+    line-height: normal;
+    font-size: 12px;
+}
+
+.shodow {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.iconify { width: 30px; height: 30px; }
