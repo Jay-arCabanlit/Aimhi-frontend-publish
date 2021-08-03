@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/views/pages/login/Login.css"],"names":[],"mappings":"AAAA,YACE,aAAc,CACd,gBAAiB,CACjB,iBAAkB,CAClB,SACF","file":"28.266c47b8.chunk.css","sourcesContent":[".center_img {\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 80%;\r\n}\r\n"]}
